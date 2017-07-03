@@ -1,0 +1,76 @@
+@charset "utf-8";
+html, body  {
+    min-height: 100%;
+    overflow: auto;
+}
+body  {
+    font-size:100%;
+    margin:0;
+}
+*  {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+header, main, footer  {
+    display: block;
+}
+header  {
+    border-bottom: 1px dashed #000000;
+    padding-top: 10px;
+}
+header h1  {
+    font-family: 'Pacifico', cursive;
+    font-style: italic;
+}
+main  {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 100px;
+}
+main input  {
+    display: inline-block !important;
+    width: 70% !important;
+}
+main button  {
+    display: inline-block !important;
+}
+div.div-list-ol  {
+    padding-top: 40px;
+}
+ol  {
+    display: block;
+}
+ol li  {
+    margin-left: 20px;
+}
+footer  {
+    font-family: 'Pacifico', cursive;
+    font-style: italic;
+    margin-top: 100px;
+    padding-top: 10px;
+}
+.line-through  {
+    text-decoration: line-through;
+}
+span.delete  {
+    float: right;
+    margin-right: 10px;
+}
+@media only screen and (min-width: 321px){
+footer  {
+    margin-top: 200px;
+}
+}
+@media only screen and (min-width: 450px){
+footer  {
+    margin-top: 300px;
+}
+}
+@media only screen and (min-width: 600px){
+header  {
+    padding-bottom: 30px;
+}
+footer  {
+    margin-top: 400px;
+}  
+}
